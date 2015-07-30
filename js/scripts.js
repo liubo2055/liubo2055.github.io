@@ -2,7 +2,7 @@
 var settings = {
 	pageTransition: 'scroll-vertical', // page transition (fade, scale, scroll-vertical, scroll-horizontal)
 	bodyBackgroundImage: true, // show body background image? (true, false)
-	bodyBackgroundImagePath: 'img/background-1.jpg', // path to the background image
+	bodyBackgroundImagePath: 'img/background-6.jpg', // path to the background image
 	twitterWidgetId: '355933225069187074' // your Twitter widget ID (see the documentation)
 }
 
