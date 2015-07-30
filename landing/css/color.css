@@ -1,0 +1,41 @@
+/*######################################*/
+/*Colors for the template */
+/*######################################*/
+
+body {
+    background-color: white;
+}
+
+#footer {
+    background-color: #31203B;
+}
+
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    background-color: #0EAA97;
+}
+
+
+h3 {
+    color:black;
+}
+
+h4 {
+    color: #0EAA97;
+}
+
+.feature_icon {
+    fill:#d8d8d8;
+}
+
+
+#features_3, .arrows_box_bg, #tuition {
+    background-color:#f7f8fa;
+}
+
+.owl-theme .owl-controls .owl-page span{
+	background-color: #d8d8d8;
+}
+
+

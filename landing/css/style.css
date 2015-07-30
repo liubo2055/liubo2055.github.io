@@ -1,0 +1,504 @@
+/*######################################*/
+/*RESET ################################*/
+/*######################################*/
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, p, blockquote, hr, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/*######################################*/
+/*TYPOGRAPHY ###########################*/
+/*######################################*/
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+    font-size: 100%;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.625em;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+a {
+    font-size: 1em;
+    line-height: 1.625rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 25pt;
+    line-height: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 2.3rem;
+    margin-bottom: 1.7rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+    line-height: 2.25rem;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    font-weight: 600;
+}
+
+h5 {
+    font-family: sans-serif;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none
+}
+
+li {
+    margin-top: 1.625em;
+}
+
+li a {
+    display: inline;
+}
+
+hr {
+    margin-top: 4.568em;
+    margin-bottom: 4.568em;
+}
+
+/*######################################*/
+/*BUTTONS ############################*/
+/*######################################*/
+.scrollto p {
+    margin-bottom: 60px;
+}
+
+.btn-lg {
+
+    line-height: 2.8;
+    border: none;
+}
+
+.bat-11 {
+
+    background-color: #0EAA97;
+    line-height: 2.8;
+    border: none;
+    margin-left: 1rem;
+}
+
+.baton {
+
+    margin: 1rem 0 2rem;
+}
+
+/*######################################*/
+/*HOME #################################*/
+/*######################################*/
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#home {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    background: #321E36 url(../img/bg.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#home_image {
+    position: absolute;
+    top: 13rem;
+    right: 0;
+    z-index: 0;
+}
+
+#homescreen {
+    text-align: left;
+
+}
+
+#home_content {
+    text-align: left;
+}
+
+#logo {
+    margin-top: 100px;
+    margin-bottom: 0.4rem;
+    opacity: 1;
+}
+
+#logo h1 a {
+    font: normal 68pt arial, sans-serif;
+    font-weight: 100;
+    color: #fff;
+
+}
+
+.navbar-header a {
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #A2A2A2;
+    font-size: 24px;
+    margin: -10px 0;
+}
+
+.navbar-header a:hover {
+
+    color: #0EAA97;
+
+}
+
+ul.nav li {
+    border: 2px solid rgba(255, 255, 255, 0);
+    margin-left: 15px;
+    padding: 7px 15px;
+    margin-top: 0;
+}
+
+ul.nav li:hover, ul.nav li:focus, ul.nav li.active {
+    border: 2px solid #333;
+}
+
+ul.nav li a {
+    color: #292D30;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+#logo_header {
+    margin-bottom: 4.3rem
+}
+
+#slogan {
+    color: white;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+}
+
+#slogan h1 {
+    line-height: 1;
+    padding: 0 0 10px;
+}
+
+#slogan p {
+    line-height: 1.4;
+    padding: 0 0 20px;
+}
+
+#logo, #logo_header, #slogan, #home_image {
+    opacity: 0;
+}
+
+/*######################################*/
+/*FEATURES 1 - Social###################*/
+/*######################################*/
+
+#features_1 {
+    margin: 0;
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+    background: #F7F8FA;
+    position: relative;
+    display: block;
+    z-index: 20;
+    text-align: left;
+}
+
+#features_1_content {
+    padding-top: 3rem;
+}
+
+.feature {
+    margin-top: 2rem;
+}
+
+.feature_icon {
+    width: 2rem;
+    height: 2rem;
+    float: left;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.image_front {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 30;
+}
+
+.image_back {
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 29;
+}
+
+#features_1_content, #features1a_image, #features1b_image {
+    opacity: 0;
+}
+
+/*######################################*/
+/*FEATURES 2 - Service##################*/
+/*######################################*/
+
+#features_2 {
+    margin: 0;
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+    background: white;
+    position: relative;
+    display: block;
+    z-index: 20;
+    text-align: left;
+}
+
+#features_2_content {
+    padding-top: 3rem;
+}
+
+#features_2_content, #features2a_image, #features2b_image {
+    opacity: 0;
+}
+
+/*######################################*/
+/*FEATURES 3 - App Feature##############*/
+/*######################################*/
+
+#features_3 {
+    margin: 0;
+    padding-top: 6.5rem;
+    padding-bottom: 0;
+    height: 42.625rem;
+    background: white;
+    position: relative;
+    display: block;
+    z-index: 20;
+    text-align: left;
+    overflow: hidden;
+}
+
+#features_3_intro {
+    text-align: center;
+    margin-bottom: 1.625rem;
+}
+
+#features_3_content_left {
+    text-align: right;
+    padding-right: 2rem;
+    padding-bottom: 6.5rem;
+}
+
+#features_3_content_right {
+    text-align: left;
+    padding-left: 2rem;
+    padding-bottom: 6.5rem;
+}
+
+#features_3_content_center img {
+    overflow: hidden;
+}
+
+#features_3_intro, #features_3_content_left, #features_3_content_right, #features_3_content_center {
+    opacity: 0;
+}
+
+/*######################################*/
+/*GALLERY ##############################*/
+/*######################################*/
+
+#gallery {
+    margin: 0;
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+    position: relative;
+    display: block;
+    z-index: 100;
+    text-align: center;
+    background-color: white;
+}
+
+#owl-gallery {
+    margin-top: 3.4rem;
+}
+
+.item {
+    margin: 1rem;
+}
+
+.item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.item a:hover img {
+    opacity: 0.8;
+    -webkit-animation: pulse .5s;
+    animation: pulse .5s;
+}
+
+#gallery_intro, #gallery_carousel {
+    opacity: 0;
+}
+
+/*######################################*/
+/*TUITION ###########################*/
+/*######################################*/
+
+#tuition {
+    margin: 0;
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+    position: relative;
+    display: block;
+    z-index: 100;
+    text-align: center;
+    background-color: white;
+}
+
+#tuition_intro {
+    opacity: 0;
+}
+
+#tuition_content, #tuition_chart {
+    margin-top: 3rem;
+}
+
+#btn_submit {
+    margin-top: 1rem;
+}
+
+/*######################################*/
+/*FOOTER ###########################*/
+/*######################################*/
+
+#footer {
+    padding-top: 5.4rem;
+    padding-bottom: 6.5rem;
+    background: #321E36 url(../img/bg.jpg) no-repeat center;
+    position: relative;
+    display: block;
+    z-index: 100;
+    text-align: center;
+}
+
+#footer h2 {
+    color: white;
+}
+
+#footer p {
+    color: white;
+    font-size: 1em;
+}
+
+/* Icons */
+
+.fa {
+    width: 2rem;
+    height: 2rem;
+    float: left;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+figure {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.9rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 5rem;
+    border: 2px solid #0EAA97;
+}
+
+.left {
+    float: right;
+    margin-left: 1rem;
+}
+
+.right {
+    float: left;
+    margin-right: 1rem;
+}
+
+figure .fa {
+    width: auto;
+    height: auto;
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+    vertical-align: middle;
+    color: #0EAA97;
+}
+
+#footer ul li {
+
+    display: inline-block;
+    margin: 4.625em 0.3rem;
+
+}
+
+#footer ul li i {
+
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal !important;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+#footer ul li a {
+    color: #fff;
+    opacity: 0.5;
+}
+
+#footer ul li a:hover {
+    color: #fff;
+    opacity: 1;
+
+}
+
+
+
